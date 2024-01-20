@@ -77,3 +77,32 @@ Desplegar desde el repositorio en modo DEBUG require crear el ambiente, correr l
     ```sh
     python3 manage.py test
     ```
+
+## Ejemplo de uso de endpoints
+Los ejemplos están basados en la data que ya existen la imagen docker publicada, en caso de generar un ambiente local de pruebas desde cero, cambiar los parámetros y cuerpos de solicitud dependiendo de los nuevos registros.
+
+1. Generar informe de infracciones
+```python
+import requests
+
+response = requests.get(
+    url="http://localhost:8000/generar_informe",
+    params={"email": "pedro@gmail.com"})
+print(response.json())
+```
+
+1. Publicar infracción
+```python
+import requests
+import json
+
+data = {
+    "placa_patente": "GPZ402",
+    "comentarios": "Comentarios del oficial"}
+
+response = requests.post(
+    url="http://localhost:8000/cargar_infraccion/",
+    json=data,
+    headers={"Authorization": "Bearer wAcbvvcxKfM2ZnxTAynYrwWGt2RLCe"})
+print(response.status_code)
+```
