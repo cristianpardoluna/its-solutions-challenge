@@ -1,0 +1,12 @@
+[
+{
+  "model": "backend.vehicle",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "plate": "GPZ402",
+    "brand": "Ford",
+    "color": "Rojo"
+  }
+}
+]

@@ -1,0 +1,10 @@
+[
+{
+  "model": "backend.person",
+  "pk": 1,
+  "fields": {
+    "name": "Pedro",
+    "email": "pedro@gmail.com"
+  }
+}
+]

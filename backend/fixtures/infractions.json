@@ -1,0 +1,32 @@
+[
+{
+  "model": "backend.infraction",
+  "pk": 1,
+  "fields": {
+    "vehicle": 1,
+    "comments": "Comentarios",
+    "officer": 1,
+    "created_at": "2024-01-20T17:17:58.960Z"
+  }
+},
+{
+  "model": "backend.infraction",
+  "pk": 2,
+  "fields": {
+    "vehicle": 1,
+    "comments": "Comentarios",
+    "officer": 1,
+    "created_at": "2024-01-20T17:17:58.960Z"
+  }
+},
+{
+  "model": "backend.infraction",
+  "pk": 3,
+  "fields": {
+    "vehicle": 1,
+    "comments": "Comentarios",
+    "officer": 1,
+    "created_at": "2024-01-20T17:17:58.960Z"
+  }
+}
+]

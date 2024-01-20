@@ -1,0 +1,9 @@
+[
+{
+  "model": "backend.officer",
+  "pk": 1,
+  "fields": {
+    "name": "Oficial pedro"
+  }
+}
+]
